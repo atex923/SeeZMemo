@@ -1,0 +1,111 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* SeeZMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* SeeZMemoApp.swift */; };
+		A10000000000000000000002 /* PlaceRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* PlaceRecord.swift */; };
+		A10000000000000000000003 /* PlaceTypeMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* PlaceTypeMemory.swift */; };
+		A10000000000000000000004 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* LocationService.swift */; };
+		A10000000000000000000005 /* OCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* OCRService.swift */; };
+		A10000000000000000000006 /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* CameraPicker.swift */; };
+		A10000000000000000000007 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* HomeView.swift */; };
+		A10000000000000000000008 /* RecordEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* RecordEditorView.swift */; };
+		A10000000000000000000009 /* MapEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* MapEditorView.swift */; };
+		A1000000000000000000000A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000A /* Assets.xcassets */; };
+		A1000000000000000000000B /* PlaceRulesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000C /* PlaceRulesTests.swift */; };
+		A1000000000000000000000C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000E /* XCTest.framework */; };
+		A1000000000000000000000D /* JournalShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000010 /* JournalShareService.swift */; };
+		A1000000000000000000000E /* RecordsBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000011 /* RecordsBrowserView.swift */; };
+		A1000000000000000000000F /* BackupSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000012 /* BackupSyncService.swift */; };
+		A10000000000000000000010 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000013 /* SettingsView.swift */; };
+		A10000000000000000000011 /* PhotoMetadataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000014 /* PhotoMetadataService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C10000000000000000000001 = {isa = PBXContainerItemProxy; containerPortal = D10000000000000000000001 /* Project object */; proxyType = 1; remoteGlobalIDString = D10000000000000000000002; remoteInfo = SeeZMemo; };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* SeeZMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeZMemoApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* PlaceRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceRecord.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* PlaceTypeMemory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTypeMemory.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* OCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRService.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* RecordEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordEditorView.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* MapEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapEditorView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1000000000000000000000B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1000000000000000000000C /* PlaceRulesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceRulesTests.swift; sourceTree = "<group>"; };
+		B1000000000000000000000D /* SeeZMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeZMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1000000000000000000000E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = System/Library/Frameworks/XCTest.framework; sourceTree = SDKROOT; };
+		B1000000000000000000000F /* SeeZMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeeZMemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000010 /* JournalShareService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalShareService.swift; sourceTree = "<group>"; };
+		B10000000000000000000011 /* RecordsBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsBrowserView.swift; sourceTree = "<group>"; };
+		B10000000000000000000012 /* BackupSyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupSyncService.swift; sourceTree = "<group>"; };
+		B10000000000000000000013 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B10000000000000000000014 /* PhotoMetadataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMetadataService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E10000000000000000000001 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		E10000000000000000000002 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (A1000000000000000000000C /* XCTest.framework in Frameworks */,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F10000000000000000000001 = {isa = PBXGroup; children = (F10000000000000000000002 /* SeeZMemo */, F10000000000000000000006 /* SeeZMemoTests */, F10000000000000000000007 /* Frameworks */, F10000000000000000000008 /* Products */,); sourceTree = "<group>"; };
+		F10000000000000000000002 /* SeeZMemo */ = {isa = PBXGroup; path = SeeZMemo; sourceTree = "<group>"; children = (B10000000000000000000001, F10000000000000000000003 /* Models */, F10000000000000000000004 /* Services */, F10000000000000000000005 /* Views */, F10000000000000000000009 /* Resources */, B1000000000000000000000B,); };
+		F10000000000000000000003 /* Models */ = {isa = PBXGroup; path = Models; sourceTree = "<group>"; children = (B10000000000000000000002,); };
+		F10000000000000000000004 /* Services */ = {isa = PBXGroup; path = Services; sourceTree = "<group>"; children = (B10000000000000000000003, B10000000000000000000004, B10000000000000000000005, B10000000000000000000010, B10000000000000000000012, B10000000000000000000014,); };
+		F10000000000000000000005 /* Views */ = {isa = PBXGroup; path = Views; sourceTree = "<group>"; children = (B10000000000000000000006, B10000000000000000000007, B10000000000000000000008, B10000000000000000000009, B10000000000000000000011, B10000000000000000000013,); };
+		F10000000000000000000006 /* SeeZMemoTests */ = {isa = PBXGroup; path = SeeZMemoTests; sourceTree = "<group>"; children = (B1000000000000000000000C,); };
+		F10000000000000000000007 /* Frameworks */ = {isa = PBXGroup; children = (B1000000000000000000000E,); sourceTree = "<group>"; };
+		F10000000000000000000008 /* Products */ = {isa = PBXGroup; children = (B1000000000000000000000D, B1000000000000000000000F,); name = Products; sourceTree = "<group>"; };
+		F10000000000000000000009 /* Resources */ = {isa = PBXGroup; path = Resources; sourceTree = "<group>"; children = (B1000000000000000000000A,); };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D10000000000000000000002 /* SeeZMemo */ = {isa = PBXNativeTarget; buildConfigurationList = A20000000000000000000001; buildPhases = (E10000000000000000000003, E10000000000000000000001, E10000000000000000000005,); buildRules = (); dependencies = (); name = SeeZMemo; productName = SeeZMemo; productReference = B1000000000000000000000D; productType = "com.apple.product-type.application"; };
+		D10000000000000000000003 /* SeeZMemoTests */ = {isa = PBXNativeTarget; buildConfigurationList = A20000000000000000000002; buildPhases = (E10000000000000000000004, E10000000000000000000002, E10000000000000000000006,); buildRules = (); dependencies = (E20000000000000000000001,); name = SeeZMemoTests; productName = SeeZMemoTests; productReference = B1000000000000000000000F; productType = "com.apple.product-type.bundle.unit-test"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D10000000000000000000001 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = YES; LastSwiftUpdateCheck = 1600; LastUpgradeCheck = 1600; TargetAttributes = {D10000000000000000000002 = {CreatedOnToolsVersion = 16.0;}; D10000000000000000000003 = {CreatedOnToolsVersion = 16.0; TestTargetID = D10000000000000000000002;};};}; buildConfigurationList = A20000000000000000000003; compatibilityVersion = "Xcode 14.0"; developmentRegion = zh_TW; hasScannedForEncodings = 0; knownRegions = (en, Base, zh_TW,); mainGroup = F10000000000000000000001; productRefGroup = F10000000000000000000008; projectDirPath = ""; projectRoot = ""; targets = (D10000000000000000000002, D10000000000000000000003,); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E10000000000000000000005 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A1000000000000000000000A,); runOnlyForDeploymentPostprocessing = 0; };
+		E10000000000000000000006 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E10000000000000000000003 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001, A10000000000000000000002, A10000000000000000000003, A10000000000000000000004, A10000000000000000000005, A10000000000000000000006, A10000000000000000000007, A10000000000000000000008, A10000000000000000000009, A1000000000000000000000D, A1000000000000000000000E, A1000000000000000000000F, A10000000000000000000010, A10000000000000000000011,); runOnlyForDeploymentPostprocessing = 0; };
+		E10000000000000000000004 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A1000000000000000000000B,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E20000000000000000000001 = {isa = PBXTargetDependency; target = D10000000000000000000002; targetProxy = C10000000000000000000001; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A30000000000000000000001 = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_C_LANGUAGE_STANDARD = gnu17; IPHONEOS_DEPLOYMENT_TARGET = 18.0; ONLY_ACTIVE_ARCH = YES; SDKROOT = iphoneos; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; SWIFT_OPTIMIZATION_LEVEL = "-Onone";}; name = Debug; };
+		A30000000000000000000002 = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_NS_ASSERTIONS = NO; GCC_C_LANGUAGE_STANDARD = gnu17; IPHONEOS_DEPLOYMENT_TARGET = 18.0; SDKROOT = iphoneos; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O"; VALIDATE_PRODUCT = YES;}; name = Release; };
+		A30000000000000000000003 = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 8; DEVELOPMENT_TEAM = Y3ZLRY9835; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = SeeZMemo/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 18.0; MARKETING_VERSION = 0.1.0; PRODUCT_BUNDLE_IDENTIFIER = com.atex1.SeeZMemo; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1;}; name = Debug; };
+		A30000000000000000000004 = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 8; DEVELOPMENT_TEAM = Y3ZLRY9835; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = SeeZMemo/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 18.0; MARKETING_VERSION = 0.1.0; PRODUCT_BUNDLE_IDENTIFIER = com.atex1.SeeZMemo; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1;}; name = Release; };
+		A30000000000000000000005 = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = Y3ZLRY9835; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 18.0; PRODUCT_BUNDLE_IDENTIFIER = com.atex1.SeeZMemoTests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeeZMemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SeeZMemo";}; name = Debug; };
+		A30000000000000000000006 = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = Y3ZLRY9835; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 18.0; PRODUCT_BUNDLE_IDENTIFIER = com.atex1.SeeZMemoTests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeeZMemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SeeZMemo";}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A20000000000000000000001 = {isa = XCConfigurationList; buildConfigurations = (A30000000000000000000003, A30000000000000000000004,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A20000000000000000000002 = {isa = XCConfigurationList; buildConfigurations = (A30000000000000000000005, A30000000000000000000006,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A20000000000000000000003 = {isa = XCConfigurationList; buildConfigurations = (A30000000000000000000001, A30000000000000000000002,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = D10000000000000000000001 /* Project object */;
+}
