@@ -5,7 +5,7 @@
 ## V0.1.0 自動、版面與實機驗證
 
 - 對外版本 V0.1.0；內部建置號 8；首頁顯示 `V0.1.0(20260925)`。
-- iOS Simulator generic build與 Xcode Static Analyzer 成功。
+- iOS Simulator generic build 與 Xcode Static Analyzer 成功。
 - iPhone 17 Pro 模擬器 14/14 項單元測試通過。
 - 實體 iPhone 16 14/14 項單元測試通過。
 - iPhone 16 與 iPhone 17 Pro 模擬器首頁版面均無版本文字截斷或主要操作遮蔽。
@@ -13,6 +13,13 @@
 - iPhoneOS 開發簽署建置成功；Info.plist 確認版本 0.1.0、build 8、Bundle ID 維持不變。
 - 使用相同 Bundle ID 覆蓋安裝至實體 iPhone 16 成功，未執行解除安裝；啟動成功且程序持續運行。
 - 郵件 App 的實際開啟或無郵件 App 時複製信箱的分支，仍需依實機郵件設定人工確認。
+
+## V0.1.0 交付驗證
+
+- Google Drive：已同步至 `12.Codex/SeeZMemo/V0.1.0/SeeZMemo_V0.1.0_Source`；checksum dry-run 無差異，抽樣 SHA-256 讀回一致。
+- GitHub：已推送至 `atex923/SeeZMemo` 的 `main`，並以遠端 ref 讀回確認。
+- iPhone 16：已使用相同 Bundle ID 覆蓋安裝並成功啟動，未解除安裝 App。
+- 交付內容排除 `.git`、`.DS_Store`、DerivedData、Xcode 個人狀態及 Python 快取；本次未建立一般更新用 ZIP。
 
 ## V0.0.7 自動與實機驗證
 
