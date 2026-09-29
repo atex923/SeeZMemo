@@ -13,6 +13,14 @@
 - iPhoneOS 開發簽署建置成功；Info.plist 確認版本 0.1.1、build 9、Bundle ID 維持不變。
 - 使用相同 Bundle ID 覆蓋安裝至實體 iPhone 16 成功，未執行解除安裝；裝置版本讀回、啟動及程序存活確認均成功。
 
+## V0.1.1 統一排版與交付驗證
+
+- 回饋信箱已依 TGoshake 統一為單列 `LabeledContent`；簽署實機建置成功。
+- iPhone 16 已以相同 Bundle ID 覆蓋安裝，讀回版本為 0.1.1、build 9；未解除安裝或清除資料。
+- 自動啟動重試時裝置處於鎖定狀態，安裝成功不等同於本次啟動驗證，需在解鎖後補驗。
+- Google Drive：已同步至 `12.Codex/SeeZMemo/V0.1.1/SeeZMemo_V0.1.1_Source`；checksum dry-run 無差異，抽樣 SHA-256 讀回一致。
+- GitHub：已推送至 `atex923/SeeZMemo` 的 `main`，並以遠端 ref 讀回確認。
+
 ## V0.1.0 自動、版面與實機驗證
 
 - 對外版本 V0.1.0；內部建置號 8；首頁顯示 `V0.1.0(20260925)`。
