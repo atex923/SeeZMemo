@@ -53,18 +53,21 @@ struct SettingsView: View {
                 LabeledContent("版本", value: "V\(appVersion) (\(buildNumber))")
                 LabeledContent("程式設計者", value: AppBuildInfo.developerName)
                 Button(action: openFeedbackEmail) {
-                    HStack(spacing: 12) {
+                    VStack(alignment: .leading, spacing: 5) {
                         Text("使用回饋信箱")
                             .foregroundStyle(.primary)
-                        Spacer()
-                        Text(AppBuildInfo.feedbackEmail)
-                            .foregroundStyle(.secondary)
-                            .lineLimit(1)
-                            .minimumScaleFactor(0.75)
-                        Image(systemName: "envelope")
-                            .foregroundStyle(.secondary)
+                        HStack(spacing: 10) {
+                            Text(AppBuildInfo.feedbackEmail)
+                                .font(.subheadline)
+                                .foregroundStyle(.secondary)
+                                .multilineTextAlignment(.leading)
+                                .fixedSize(horizontal: false, vertical: true)
+                            Spacer(minLength: 8)
+                            Image(systemName: "envelope")
+                                .foregroundStyle(.secondary)
+                        }
                     }
-                    .frame(minHeight: 44)
+                    .frame(maxWidth: .infinity, minHeight: 52, alignment: .leading)
                     .contentShape(Rectangle())
                 }
                 .buttonStyle(.plain)
@@ -85,8 +88,8 @@ struct SettingsView: View {
     }
 
     private func prepareExport() { do { exportDocument = SeeZBackupDocument(archive: try BackupService.makeArchive(context: context)) } catch { message = error.localizedDescription } }
-    private var appVersion: String { Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "0.1.0" }
-    private var buildNumber: String { Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as? String ?? "8" }
+    private var appVersion: String { Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "0.1.1" }
+    private var buildNumber: String { Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as? String ?? "9" }
     private func openFeedbackEmail() {
         guard let url = URL(string: "mailto:\(AppBuildInfo.feedbackEmail)") else { return }
         if UIApplication.shared.canOpenURL(url) {

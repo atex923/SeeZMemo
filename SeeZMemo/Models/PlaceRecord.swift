@@ -140,7 +140,7 @@ enum AppLimits {
 }
 
 enum AppBuildInfo {
-    static let compilationDate = "20260925"
+    static let compilationDate = "20260928"
     static let developerName = "Atex Lin"
     static let feedbackEmail = "atexapp.lin@gmail.com"
 

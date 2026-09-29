@@ -5,8 +5,8 @@ import ImageIO
 @testable import SeeZMemo
 
 final class PlaceRulesTests: XCTestCase {
-    func testV010HomeVersionFormat() {
-        XCTAssertEqual(AppBuildInfo.homeVersionText(version: "0.1.0"), "V0.1.0(20260925)")
+    func testV011HomeVersionFormat() {
+        XCTAssertEqual(AppBuildInfo.homeVersionText(version: "0.1.1"), "V0.1.1(20260928)")
         XCTAssertEqual(AppBuildInfo.developerName, "Atex Lin")
         XCTAssertEqual(AppBuildInfo.feedbackEmail, "atexapp.lin@gmail.com")
     }

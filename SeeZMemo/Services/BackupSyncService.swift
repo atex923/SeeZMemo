@@ -99,7 +99,7 @@ enum BackupService {
 
     @MainActor static func makeArchive(context: ModelContext) throws -> SeeZBackupArchive {
         let values = try context.fetch(FetchDescriptor<PlaceRecord>())
-        return .init(appVersion: Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "0.1.0", createdAt: .now, records: values.map(RecordArchive.init), typeEntries: PlaceTypeMemory().entries)
+        return .init(appVersion: Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "0.1.1", createdAt: .now, records: values.map(RecordArchive.init), typeEntries: PlaceTypeMemory().entries)
     }
 
     static func validate(_ archive: SeeZBackupArchive) throws {
