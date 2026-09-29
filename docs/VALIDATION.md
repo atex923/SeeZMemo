@@ -8,7 +8,7 @@
 - iOS Simulator generic build 與 Xcode Static Analyzer 成功。
 - iPhone 17 Pro 模擬器 14/14 項單元測試通過。
 - iPhone 16 與 iPhone 17 Pro 模擬器安裝及啟動成功；兩種首頁尺寸均無版本文字截斷。
-- 設定頁回饋按鈕已改為靠左的垂直排列：第一行 `使用回饋信箱`，第二行 `atexapp.lin@gmail.com`；整列點按高度至少 52pt，VoiceOver 標籤及郵件／複製行為維持不變。
+- 設定頁回饋按鈕已依 TGoshake 統一為同列 `LabeledContent`：左側 `使用回饋信箱`、右側 `atexapp.lin@gmail.com`；VoiceOver 標籤及郵件／複製行為維持不變。
 - 驗證時 Mac 畫面處於鎖定狀態，無法以 UI 自動化開啟設定頁，因此兩種尺寸的設定頁截圖、超大動態文字與實際點擊郵件分支尚未完成。
 - iPhoneOS 開發簽署建置成功；Info.plist 確認版本 0.1.1、build 9、Bundle ID 維持不變。
 - 使用相同 Bundle ID 覆蓋安裝至實體 iPhone 16 成功，未執行解除安裝；裝置版本讀回、啟動及程序存活確認均成功。

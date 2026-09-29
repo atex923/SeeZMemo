@@ -53,22 +53,7 @@ struct SettingsView: View {
                 LabeledContent("版本", value: "V\(appVersion) (\(buildNumber))")
                 LabeledContent("程式設計者", value: AppBuildInfo.developerName)
                 Button(action: openFeedbackEmail) {
-                    VStack(alignment: .leading, spacing: 5) {
-                        Text("使用回饋信箱")
-                            .foregroundStyle(.primary)
-                        HStack(spacing: 10) {
-                            Text(AppBuildInfo.feedbackEmail)
-                                .font(.subheadline)
-                                .foregroundStyle(.secondary)
-                                .multilineTextAlignment(.leading)
-                                .fixedSize(horizontal: false, vertical: true)
-                            Spacer(minLength: 8)
-                            Image(systemName: "envelope")
-                                .foregroundStyle(.secondary)
-                        }
-                    }
-                    .frame(maxWidth: .infinity, minHeight: 52, alignment: .leading)
-                    .contentShape(Rectangle())
+                    LabeledContent("使用回饋信箱", value: AppBuildInfo.feedbackEmail)
                 }
                 .buttonStyle(.plain)
                 .accessibilityLabel("寄送使用回饋至 \(AppBuildInfo.feedbackEmail)")
